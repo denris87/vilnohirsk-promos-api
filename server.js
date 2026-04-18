@@ -5,25 +5,23 @@ const yaml = require('js-yaml');
 const app = express();
 app.use(cors());
 
-// URL до вашого файлу promos.yaml на GitHub
-const GITHUB_API_URL = 'https://api.github.com/repos/denris87/vilnohirsk-promos-api/contents/promos.yaml';
+// Пряме посилання на сирий файл (щоб уникнути помилки 403 від GitHub API)
+const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/denris87/vilnohirsk-promos-api/main/promos.yaml';
 
 app.get('/api/promos', async (req, res) => {
     try {
-        const fetchUrl = `${GITHUB_API_URL}?ref=main&t=${Date.now()}`;
+        const fetchUrl = `${GITHUB_RAW_URL}?t=${Date.now()}`;
         
         const response = await fetch(fetchUrl, {
             headers: {
-                'Accept': 'application/vnd.github.v3.raw',
                 'Cache-Control': 'no-store, no-cache, must-revalidate',
-                'Pragma': 'no-cache',
-                'If-None-Match': '' 
+                'Pragma': 'no-cache'
             }
         });
         
         if (!response.ok) {
             console.error(`Помилка доступу до GitHub: ${response.status}`);
-            return res.status(response.status).json({ error: `GitHub API Error: ${response.status}` });
+            return res.status(response.status).json({ error: `GitHub Error: ${response.status}` });
         }
         
         const yamlText = await response.text();
