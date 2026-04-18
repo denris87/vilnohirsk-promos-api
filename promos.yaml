@@ -3,8 +3,7 @@ promos:
     title: "тест -50%"
     discount: "-50%"
     validUntil: "20.04.2026"
-    description: |
-      тест
+    description: "тест"
     phone: "+380970000000"
     photos: 
       - "https://placehold.co/600x400/ff3366/ffffff?text=Silpo+Sale&font=montserrat"
