@@ -7,7 +7,7 @@ promos:
     phone: "+380970000000"
     photos: 
       - "https://placehold.co/600x400/ff3366/ffffff?text=Silpo+Sale&font=montserrat"
-    vip: true
+    vip: false
     active: false
 
   - shop: "тест"
