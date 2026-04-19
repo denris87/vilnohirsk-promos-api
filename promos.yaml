@@ -8,7 +8,7 @@ promos:
     photos: 
       - "https://placehold.co/600x400/ff3366/ffffff?text=Silpo+Sale&font=montserrat"
     vip: true
-    active: true
+    active: false
 
   - shop: "тест"
     title: "1+1=3 на всі кавові напої"
@@ -19,4 +19,4 @@ promos:
     photos: 
       - "https://placehold.co/600x400/ff9f43/ffffff?text=Coffee+Promo&font=montserrat"
     vip: false
-    active: true
+    active: false
