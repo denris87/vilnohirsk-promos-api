@@ -3,8 +3,8 @@ promos:
     title: "🚕 Знижка -30% на перші 3 поїздки для нових клієнтів!"
     discount: "-30%"
     validUntil: "Безстроково"
-    description: "При реєстрації у додатку, нових клієнтів чекають приємні знижки на перші 3 поїздки зі знижкою 30% кожна 🤗\n\n📲 Реєстрація та завантаження додатку:\nhttps://ontaxi.com.ua/qr"
-    phone: "Онлайн"
+    description: "📲 Реєстрація та завантаження додатку:\nhttps://ontaxi.com.ua/qr"
+    phone: ""
     photos: 
       - "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_6204.JPG?raw=true"
     vip: false
