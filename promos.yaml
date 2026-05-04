@@ -8,7 +8,7 @@ promos:
     photos: 
       - "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_6204.JPG?raw=true"
     vip: false
-    active: true
+    active: false
 
   - shop: "тест"
     title: "1+1=3 на всі кавові напої"
