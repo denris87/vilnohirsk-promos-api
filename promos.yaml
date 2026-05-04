@@ -3,8 +3,8 @@ promos:
     title: "🚕 Знижка -30% на перші 3 поїздки!"
     discount: "-30%"
     validUntil: "Безстроково"
-    description: "Хочемо нагадати, при реєстрації у додатку, нових клієнтів чекають приємні знижки на перші 3 поїздки зі знижкою 30% кожна 🤗"
-    phone: "У додатку"
+    description: При реєстрації у додатку, нових клієнтів чекають приємні знижки на перші 3 поїздки зі знижкою 30% кожна 🤗"
+    phone: "2000"
     photos: 
       - "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_6204.JPG?raw=true"
     vip: false
