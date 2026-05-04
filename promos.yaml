@@ -6,7 +6,7 @@ promos:
     description: "тест"
     phone: "+380970000000"
     photos: 
-      - "https://placehold.co/600x400/ff3366/ffffff?text=Silpo+Sale&font=montserrat"
+      - "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_6204.JPG?raw=true"
     vip: false
     active: true
 
