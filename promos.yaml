@@ -7,7 +7,7 @@ promos:
     phone: "Онлайн"
     photos: 
       - "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_6204.JPG?raw=true"
-    vip: true
+    vip: false
     active: true
 
   - shop: "тест"
