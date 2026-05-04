@@ -1,5 +1,5 @@
 promos:
-  - shop: "ТЕСТ"
+  - shop: "Хочемо нагадати, при реєстрації у додатку, нових клієнтів чекають приємні знижки на перші 3 поїздки зі знижкою 30% кожна "
     title: "тест -50%"
     discount: "-50%"
     validUntil: "20.04.2026"
@@ -8,7 +8,7 @@ promos:
     photos: 
       - "https://placehold.co/600x400/ff3366/ffffff?text=Silpo+Sale&font=montserrat"
     vip: false
-    active: false
+    active: true
 
   - shop: "тест"
     title: "1+1=3 на всі кавові напої"
