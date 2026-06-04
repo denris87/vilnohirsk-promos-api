@@ -28,6 +28,11 @@ function normalizePromo(raw) {
         photos.push(raw.photos.trim());
     }
 
+    // Посилання на сайт акції: приймаємо link або url — зводимо до link.
+    let link = '';
+    if (typeof raw.link === 'string' && raw.link.trim()) link = raw.link.trim();
+    else if (typeof raw.url === 'string' && raw.url.trim()) link = raw.url.trim();
+
     const promo = {
         ...raw,
         shop: raw.shop ?? '',
@@ -36,12 +41,14 @@ function normalizePromo(raw) {
         validUntil: raw.validUntil ?? '',
         description: raw.description ?? '',
         phone: raw.phone ?? '',
+        link,
         photos: [...new Set(photos)],
         vip: raw.vip === true,
         // Якщо active не вказано — акція вважається опублікованою. Сховати: active: false.
         active: raw.active !== false,
     };
     delete promo.photo; // фото вже зведене у photos
+    delete promo.url;   // посилання вже зведене у link
     return promo;
 }
 
