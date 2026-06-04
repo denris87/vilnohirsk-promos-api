@@ -13,6 +13,7 @@
 #    discount    напис знижки: "-30%", "1+1=3", "До 24 платежів"
 #    validUntil  до коли діє: "31.12.2026" або "Безстроково"
 #    phone       телефон
+#    link        посилання на сайт: "https://assol.in.ua"
 #    photo       ОДНЕ фото (посилання)
 #    photos      КІЛЬКА фото — списком (кожне з "- ")
 #    description текст. Короткий — в один рядок. Довгий — постав "|"
@@ -41,6 +42,7 @@ promos:
     discount: "До 24 платежів"
     validUntil:
     phone: "0800 330 588"
+    link: "https://assol.in.ua"
     photo: "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_0908.JPG?raw=true"
     description: |
       🍕 В АССОЛЬ ділимо ціни аж до 24 шматочків!
@@ -73,6 +75,7 @@ promos:
       🔥 від 1000 грн/міс.
 
       📞 0800 330 588
+      🛒 Сайт: https://assol.in.ua
       💚 АССОЛЬ - тому що вигідно!
     active: true
 
