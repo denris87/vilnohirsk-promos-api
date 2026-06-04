@@ -39,7 +39,7 @@ promos:
   - shop: "АССОЛЬ"
     title: "🍕 Ділимо ціни аж до 24 шматочків!"
     discount: "До 24 платежів"
-    validUntil: ""
+    validUntil:
     phone: "0800 330 588"
     photo: "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_0908.JPG?raw=true"
     description: |
