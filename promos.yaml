@@ -41,7 +41,7 @@ promos:
     discount: "До 24 платежів"
     validUntil: "Безстроково"
     phone: "0800 330 588"
-    photo: "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_assol.JPG?raw=true"
+    photo: "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_0908.JPG?raw=true"
     description: |
       🍕 В АССОЛЬ ділимо ціни аж до 24 шматочків!
       Забирай техніку сьогодні, а плати частинами.
@@ -74,7 +74,7 @@ promos:
 
       📞 0800 330 588
       💚 АССОЛЬ - тому що вигідно!
-    active: false
+    active: true
 
   # ─── OnTaxi ──────────────────────────────────────────────────────
   - shop: "OnTaxi"
