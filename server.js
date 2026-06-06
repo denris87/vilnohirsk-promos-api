@@ -5,6 +5,16 @@ const yaml = require('js-yaml');
 const app = express();
 app.use(cors());
 
+// Health-check: швидко перевірити, що сервер живий — відкрий корінь у браузері.
+app.get('/', (req, res) => {
+    res.json({
+        status: 'ok',
+        service: 'vilnohirsk-promos-api',
+        promos: '/api/promos',
+        time: new Date().toISOString(),
+    });
+});
+
 // Пряме посилання на сирий файл (щоб уникнути помилки 403 від GitHub API)
 const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/denris87/vilnohirsk-promos-api/main/promos.yaml';
 
