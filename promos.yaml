@@ -40,7 +40,7 @@ promos:
   - shop: "АССОЛЬ"
     title: "Літній SALE в АССОЛЬ!☀️"
     discount: "ЗНИЖКИ до -50%🏝"
-    validUntil: "Безстроково"
+    validUntil: "з 04.06.2026 по 16.06.2026"
     phone: "0800 330 588"
     link: "https://assol.in.ua"
     photo: "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_0586.JPG?raw=true"
