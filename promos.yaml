@@ -86,7 +86,7 @@ promos:
   - shop: "OnTaxi"
     title: "🚖 Знижка на таксі — для нових та діючих клієнтів!"
     discount: "-30%"
-    validUntil: "Безстроково"
+    validUntil: ""
     photo: "https://github.com/denris87/vilnohirsk-promos-api/blob/main/photo_2026-06-14_11-12-15.jpg?raw=true"
     description: |
       🚖 Вільногірськ, даруємо знижку на таксі для нових та діючих клієнтів!
