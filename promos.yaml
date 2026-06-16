@@ -31,7 +31,7 @@ promos:
   - shop: "АССОЛЬ"
     title: "😱 Великі покупки дрібними частинами — до 24 платежів📊"
     discount: "До 24 платежів"
-    validUntil: "Безстроково"
+    validUntil:
     phone: "0800 330 588"
     link: "https://assol.in.ua"
     photo: "https://github.com/denris87/vilnohirsk-promos-api/blob/main/IMG_0690.JPG?raw=true"
