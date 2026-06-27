@@ -67,7 +67,7 @@ promos:
       📞 0800 330 588
       🛒 Сайт: https://assol.in.ua
       💚 АССОЛЬ - тому що вигідно!
-    active: true
+    active: false
 
   # ─── КОРОТКА АКЦІЯ: мінімум полів (приклад) ──────────────────────
   - shop: "Кав'ярня"
@@ -104,4 +104,4 @@ promos:
 
       🛒 Сайт: https://ontaxi.com.ua/qr
       📲 OnTaxi - таксі у вашому смартфоні. Замовляйте та заощаджуйте! 🚕💨
-    active: true
+    active: false
